@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>FORMULARIOS</title>
   </head>
-  <body>
+  <body style="background-color: #fff3c9">
     <form method="get">
       Nombre: <input type="text" name="nombre" required value="aldair"><br>
       Apellido: <input type="text" name="apellido" placeholder="Ingresa tu apellido"><br>
@@ -36,9 +36,18 @@
         <option value="divorciado">Divorciado</option>
       </select><br>
 
+      Materia:
+      <select name="materia" multiple>
+        <option value="matematica discreta">matematica discreta</option>
+        <option value="calculo 1">calculo 1</option>
+        <option value="estadistica 1">estadistica 1</option>
+        <option value="base de datos">base de datos</option>
+        <option value="investigacion operativa 1">investigacion operativa 1</option>
+      </select><br>
+
       Carnet de Identidad: <input type="number" value="ci"><br>
 
-      Descripci&oacute;n: <textarea name="descripcion"></textarea><br>   
+      Descripci&oacute;n: <textarea required name="descripcion" placeholder="mensaje"></textarea><br>   
 
       <input type="submit" value="Enviar">
     </form>
