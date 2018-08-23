@@ -7,16 +7,22 @@
   </head>
   <body>
     <form method="get">
-      Nombre: <input type="text" name="nombre" required><br>
+      Nombre: <input type="text" name="nombre" required value="aldair"><br>
       Apellido: <input type="text" name="apellido" placeholder="Ingresa tu apellido"><br>
       
-      <input type="checkbox" name="fuma"> Fuma
-      <input type="checkbox" name="bebe"> Bebe
-      <input type="checkbox" name="drogas"> Consume drogas<br>
+      <input type="checkbox" name="fuma" value="fumaterico" checked> Fuma
+      <input type="checkbox" name="bebe" value="borracho"> Bebe
+      <input type="checkbox" name="drogas" value="primo de vinchita" disabled> Consume drogas<br>
       
       Sexo:
-      <input type="radio" name="sexo" value="1"> Hombre
+      <input type="radio" name="sexo" value="1" checked> Hombre
       <input type="radio" name="sexo" value="0"> Mujer<br>
+
+      Carrera:
+      <input type="radio" name="carrera" value="sistemas" checked> Ing. de Sistemas<br>
+      <input type="radio" name="carrera" value="medicina" disabled> Medicina<br>
+      <input type="radio" name="carrera" value="derecho"> Derecho<br>
+      <input type="radio" name="carrera" value="comercial"> Ing. Comercial<br>
 
       Tel&eacute;fono: <input type="phone" name="telefono"><br>
 
