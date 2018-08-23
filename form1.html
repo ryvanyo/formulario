@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" class="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>FORMULARIOS</title>
+  </head>
+  <body>
+    <form method="get">
+      Nombre: <input type="text" name="nombre" required><br>
+      Apellido: <input type="text" name="apellido" placeholder="Ingresa tu apellido"><br>
+      
+      <input type="checkbox" name="fuma"> Fuma
+      <input type="checkbox" name="bebe"> Bebe
+      <input type="checkbox" name="drogas"> Consume drogas<br>
+      
+      Sexo:
+      <input type="radio" name="sexo" value="1"> Hombre
+      <input type="radio" name="sexo" value="0"> Mujer<br>
+
+      Tel&eacute;fono: <input type="phone" name="telefono"><br>
+
+      E-mail: <input type="email" name="email"><br>
+
+      Estado civil: 
+      <select name="estado_civil">
+        <option value="soltero">Soltero</option>
+        <option value="casado">Casado</option>
+        <option value="viudo">Viudo</option>
+        <option value="divorciado">Divorciado</option>
+      </select><br>
+
+      Carnet de Identidad: <input type="number" value="ci"><br>
+
+      Descripci&oacute;n: <textarea name="descripcion"></textarea><br>   
+
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
