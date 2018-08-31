@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" class="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>FORMULARIOS</title>
+  </head>
+  <body style="background-color: #fff3c9">
+    <form method="get">
+      Nombre: <input type="text" name="nombre" required value="aldair"><br>
+      Apellido: <input type="text" name="apellido" placeholder="Ingresa tu apellido"><br>
+      
+      <input type="checkbox" name="fuma" value="fumaterico" checked> Fuma
+      <input type="checkbox" name="bebe" value="borracho"> Bebe
+      <input type="checkbox" name="drogas" value="primo de vinchita" disabled> Consume drogas<br>
+      
+      Sexo:
+      <input type="radio" name="sexo" value="1" checked> Hombre
+      <input type="radio" name="sexo" value="0"> Mujer<br>
+
+      Carrera:
+      <input type="radio" name="carrera" value="sistemas" checked> Ing. de Sistemas<br>
+      <input type="radio" name="carrera" value="medicina" disabled> Medicina<br>
+      <input type="radio" name="carrera" value="derecho"> Derecho<br>
+      <input type="radio" name="carrera" value="comercial"> Ing. Comercial<br>
+
+      Tel&eacute;fono: <input type="tel" name="telefono"><br>
+
+      E-mail: <input type="email" name="email"><br>
+
+      Estado civil: 
+      <select name="estado_civil">
+        <option value="soltero">Soltero</option>
+        <option value="casado">Casado</option>
+        <option value="viudo">Viudo</option>
+        <option value="divorciado">Divorciado</option>
+      </select><br>
+
+      Materia:
+      <select name="materia" multiple>
+        <option value="matematica discreta">matematica discreta</option>
+        <option value="calculo 1">calculo 1</option>
+        <option value="estadistica 1">estadistica 1</option>
+        <option value="base de datos">base de datos</option>
+        <option value="investigacion operativa 1">investigacion operativa 1</option>
+      </select><br>
+
+      Carnet de Identidad: <input type="number" value="ci"><br>
+
+      Descripci&oacute;n: <textarea required name="descripcion" placeholder="mensaje"></textarea><br>   
+
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
